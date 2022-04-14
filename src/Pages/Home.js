@@ -1,8 +1,9 @@
 import React from 'react'
+import MainPagesLayout from './MainPagesLayout'
 
 function Home() {
   return (
-    <div>Home</div>
+    <MainPagesLayout>Home hello</MainPagesLayout>
   )
 }
 

@@ -11,7 +11,7 @@ import Starred from './Pages/Starred';
 
     <div>
 
-    <Nav/>
+    
     <Routes>
  
       <Route  path = "/" element = {<Home/>}></Route>
