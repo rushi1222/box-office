@@ -1,10 +1,8 @@
-import React from 'react'
-import MainPagesLayout from './MainPagesLayout'
+import React from 'react';
+import MainPageLayout from '../components/MainPageLayout';
 
-function Starred() {
-  return (
-    <MainPagesLayout>Starred</MainPagesLayout>
-  )
-}
+const Starred = () => {
+  return <MainPageLayout>this is starred</MainPageLayout>;
+};
 
-export default Starred
+export default Starred;
