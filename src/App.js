@@ -13,13 +13,10 @@ import Starred from './pages/Starred';
 
     
     <Routes>
- 
       <Route  path = "/" element = {<Home/>}></Route>
       <Route  path = "/Starred" element = {<Starred/>}></Route>
       <Route path = "/GenericNotFound" element = {<GenericNotFound/>}></Route>
       <Route path="*" element={<Navigate to="/GenereicNotFound" replace />} />
-     
-    
     </Routes>
     </div>
     
